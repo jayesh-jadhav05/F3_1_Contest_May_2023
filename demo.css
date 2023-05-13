@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;  
+    /* border: 2px solid black; */
+    padding: 20px 30px;
+    margin-top: 70px;
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+}
+td ,th{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+button{
+    margin-left: 40%;
+    margin-top: 1%;
+    padding: 10px 30px;
+}
+
+.thumb{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagesStyle{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
